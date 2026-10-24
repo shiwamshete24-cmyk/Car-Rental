@@ -1,0 +1,168 @@
+.hero1 {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.7)), url('src/assets/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .hero2{
+  height: auto; 
+  width: 100%; 
+} */
+.my-m {
+  margin-top: 25%;
+}
+
+.margin2 {
+  margin-top: 1%;
+}
+
+
+.aa {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  display: none;
+
+}
+
+.a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  /* margin-top: 20%; */
+
+
+}
+
+.aaa {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  display: none;
+}
+
+.form-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+}
+
+.height {
+  height: 130vh;
+}
+
+.bg-edit {
+  background-color: rgba(32, 46, 69, 0.4);
+  border: 1px solid #4b5263;
+
+}
+
+.mybtn {
+  background-color: #fab700;
+}
+
+.mybtn:hover {
+  background-color: transparent;
+  color: #fab700;
+}
+
+/* .nav-my-margin {
+  margin: 10px 0px;
+} */
+
+
+@media only screen and (min-width:668px) {
+
+
+  .height {
+    height: 110vh;
+  }
+
+  .marrgin1 {
+    margin-top: 0px;
+  }
+
+  .margin2 {
+    margin-top: 0px;
+  }
+
+  /* .nav-my-margin {
+    margin: 10px 0px;
+  } */
+
+  .my-m {
+    margin-top: 5%;
+  }
+
+  .aa {
+    display: block;
+
+  }
+
+  .aaa {
+    display: block;
+  }
+
+  .a {
+    text-align: start;
+    padding: 20px 0px;
+    font-size: 45px;
+  }
+
+}
+
+@media only screen and (min-width:992px) {
+  .height {
+    height: 110vh;
+  }
+
+  .marrgin1 {
+    margin-top: 0px;
+  }
+
+  /* .nav-my-margin {
+    margin: 0px 0px;
+  } */
+
+  .margin2 {
+    margin-top: 0px;
+  }
+
+  .my-m {
+    margin-top: 8%;
+  }
+
+  .aa {
+    display: block;
+
+
+  }
+
+  .aaa {
+    display: block;
+  }
+
+  .a {
+    text-align: start;
+    padding: 20px 0px;
+    font-size: 45px;
+  }
+
+
+
+}

@@ -1,0 +1,76 @@
+.map-height {
+    height: 60vh;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #f6f7fc;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-box i {
+    font-size: 25px;
+    color: #f5b400;
+}
+
+.info-title2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-text2 {
+    font-size: 14px;
+    color: #555;
+}
+
+.form-control2 {
+    height: 50px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+textarea.form-control2 {
+    height: 80px;
+    resize: none;
+}
+
+.btn-custom {
+    background: #ffc31d;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    background: #d99a00;
+}
+
+/* ------------ Mobile Responsive Tweaks ------------ */
+
+@media (max-width: 768px) {
+    .info-title2 {
+        font-size: 18px;
+    }
+
+    .contact-box {
+        padding: 30px 10px;
+    }
+
+    .icon-box i {
+        font-size: 28px;
+    }
+
+    textarea.form-control2 {
+        height: 120px;
+    }
+}

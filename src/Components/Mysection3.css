@@ -1,0 +1,29 @@
+.height-section3 {
+    height: 90vh;
+}
+
+.margin-section3 {
+    margin: 96px 0px;
+}
+
+.font-section3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.font1-section3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+@media only screen and (min-width:768px) {
+    .height-section3 {
+        height: 40vh;
+    }
+
+}

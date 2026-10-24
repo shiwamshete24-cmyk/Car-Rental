@@ -1,0 +1,47 @@
+.font-section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.font1-section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.font2-section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 0.7;
+
+}
+
+.color-section {
+    background-color: #fab700;
+}
+
+.padding-section {
+    padding: 30px 30px;
+}
+
+@media only screen and (min-width:768px) {
+    .box-ratio {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:992px) {
+    .box-ratio {
+        width: 30rem;
+    }
+
+
+}

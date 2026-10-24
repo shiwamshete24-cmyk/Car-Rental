@@ -1,0 +1,44 @@
+.bg-sec-4 {
+    background: linear-gradient(rgba(4, 9, 30, 0.75)), url('src/assets/callaction-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.height-sec4 {
+    height: 65vh;
+}
+
+.margin-section4 {
+    margin: 70px 0px;
+}
+
+.font-section4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.font1-section4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.font2-section4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+@media only screen and (min-width:768px) {
+    .height-section4 {
+        height: 40vh;
+    }
+
+}
